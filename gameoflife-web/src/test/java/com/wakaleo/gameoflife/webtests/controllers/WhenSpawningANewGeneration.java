@@ -27,7 +27,7 @@ public class WhenSpawningANewGeneration {
     public void theIndexUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
         ModelAndView homeView = controller.index();
-        assertThat(homeView.getViewName(), is("home1"));
+        assertThat(homeView.getViewName(), is("home"));
     }
 }	
 
